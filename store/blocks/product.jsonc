@@ -45,13 +45,7 @@
     "children": [
       "sku-selector",
       "product-quantity"
-    ],
-    "props": {
-      "visibility": "more-than-one",
-      "showValueForVariation": "image",
-      "showVariationsErrorMessage": true
-    }
-    
+    ]
   },
   "stack-layout#brand": {
     "children": [
@@ -63,6 +57,13 @@
     "props": {
       "displayMode": "logo",
       "height": 30
+    }
+  },
+  "sku-selector": {
+  "props": {
+    "visibility": "more-than-one",
+    "showValueForVariation": "image",
+    "showVariationsErrorMessage": true
     }
   }
 }
