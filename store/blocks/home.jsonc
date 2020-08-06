@@ -6,7 +6,8 @@
       "flex-layout.row",
       "shelf",
       "slider-layout#home",
-      "responsive-layout.desktop"
+      "responsive-layout.desktop#desktop",
+      "responsive-layout.mobile#mobile"
     ]
   },
 
@@ -74,12 +75,6 @@
     }
   },
 
-  "responsive-layout.desktop" : {
-    "children": [
-      "responsive-layout.desktop#desktop",
-      "responsive-layout.mobile#mobile"
-    ]
-  },
   "responsive-layout.desktop#desktop": {
     "children": [
       "rich-text#desktop",
@@ -112,7 +107,8 @@
       "link": {
         "url": "/small-appliances/coffee-makers"
       } ,
-      "alt": "Coffee Makers Collection"
+      "alt": "Coffee Makers Collection",
+      "maxWidth": "100%"
     }
   },
   "image#mobile": {
@@ -121,7 +117,8 @@
       "link": {
         "url": "/small-appliances/coffee-makers"
       } ,
-      "alt": "Coffee Makers Collection"
+      "alt": "Coffee Makers Collection",
+      "maxWidth": "100%"
     }
   }
 }
