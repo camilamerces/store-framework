@@ -32,19 +32,13 @@
       ]
     },
     "flex-layout.col#filter": {
+      "children": ["filter-navigator.v3"],
       "props": {
         "width": "20%"
       }
     }, 
-    "flex-layout.col#left": {
-      "children": [
-        "filter-navigator.v3"
-      ]
-    },
-    "flex-layout.col#right": {
-      "children": [
-        "search-content"
-      ]
+    "flex-layout.col#search": {
+      "children": ["filter-navigator.v3"]
     },
     "search-content": {
       "blocks": ["gallery", "not-found"]
