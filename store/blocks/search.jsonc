@@ -13,11 +13,9 @@
     "children": [
       "breadcrumb.search",
       "search-title.v2",
-      "search-fetch-previous",
       "flex-layout.row#top",
+      "search-fetch-previous",
       "flex-layout.row#results",
-      "flex-layout.row#left",
-      "flex-layout.row#right",
       "search-fetch-more"
       ] 
     },
@@ -30,7 +28,9 @@
     "flex-layout.row#results": {
       "children": [
         "flex-layout.col#filter",
-        "flex-layout.col#search"
+        "flex-layout.col#search",
+        "flex-layout.col#left",
+        "flex-layout.col#right"
       ]
     },
     "flex-layout.col#filter": {
@@ -38,12 +38,12 @@
         "width": "20%"
       }
     }, 
-    "flex-layout.row#left": {
+    "flex-layout.col#left": {
       "children": [
         "filter-navigator.v3"
       ]
     },
-    "flex-layout.row#right": {
+    "flex-layout.col#right": {
       "children": [
         "search-content"
       ]
