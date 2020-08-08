@@ -1,11 +1,11 @@
 {
     "store.custom#landing": {
         "blocks": [
-            "image#landingbanner", 
+            "image", 
             "search-result-layout.customQuery"
         ]
     },
-    "image#landingbanner": {
+    "image": {
         "props": {
             "minWidth": 100,
             "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Sea_%281%29.png"
